@@ -11,6 +11,17 @@
 		032216CF2BCEAF1F00B3DA43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032216CE2BCEAF1F00B3DA43 /* ContentView.swift */; };
 		032216D12BCEAF2300B3DA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032216D02BCEAF2300B3DA43 /* Assets.xcassets */; };
 		032216D42BCEAF2300B3DA43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032216D32BCEAF2300B3DA43 /* Preview Assets.xcassets */; };
+		D90F07682BCEB383007BB9B8 /* Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07672BCEB383007BB9B8 /* Toolbar.swift */; };
+		D90F07732BCEB38C007BB9B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F076B2BCEB38C007BB9B8 /* HomeViewModel.swift */; };
+		D90F07742BCEB38C007BB9B8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F076C2BCEB38C007BB9B8 /* HomeView.swift */; };
+		D90F07752BCEB38C007BB9B8 /* AllAppMissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F076E2BCEB38C007BB9B8 /* AllAppMissionViewModel.swift */; };
+		D90F07762BCEB38C007BB9B8 /* AllAppMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F076F2BCEB38C007BB9B8 /* AllAppMissionView.swift */; };
+		D90F07772BCEB38C007BB9B8 /* FavoriteAppMissionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07712BCEB38C007BB9B8 /* FavoriteAppMissionViewModel.swift */; };
+		D90F07782BCEB38C007BB9B8 /* FavoriteAppMissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07722BCEB38C007BB9B8 /* FavoriteAppMissionView.swift */; };
+		D90F077B2BCEB42C007BB9B8 /* AppMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F077A2BCEB42C007BB9B8 /* AppMission.swift */; };
+		D90F077D2BCEB47F007BB9B8 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */; };
+		D90F077F2BCEB496007BB9B8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F077E2BCEB496007BB9B8 /* String.swift */; };
+		D90F07822BCEB520007BB9B8 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07812BCEB520007BB9B8 /* SmallCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		032216CE2BCEAF1F00B3DA43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		032216D02BCEAF2300B3DA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032216D32BCEAF2300B3DA43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D90F07672BCEB383007BB9B8 /* Toolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toolbar.swift; sourceTree = "<group>"; };
+		D90F076B2BCEB38C007BB9B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		D90F076C2BCEB38C007BB9B8 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D90F076E2BCEB38C007BB9B8 /* AllAppMissionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAppMissionViewModel.swift; sourceTree = "<group>"; };
+		D90F076F2BCEB38C007BB9B8 /* AllAppMissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllAppMissionView.swift; sourceTree = "<group>"; };
+		D90F07712BCEB38C007BB9B8 /* FavoriteAppMissionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteAppMissionViewModel.swift; sourceTree = "<group>"; };
+		D90F07722BCEB38C007BB9B8 /* FavoriteAppMissionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteAppMissionView.swift; sourceTree = "<group>"; };
+		D90F077A2BCEB42C007BB9B8 /* AppMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMission.swift; sourceTree = "<group>"; };
+		D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		D90F077E2BCEB496007BB9B8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		D90F07812BCEB520007BB9B8 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +73,9 @@
 		032216CB2BCEAF1F00B3DA43 /* Career */ = {
 			isa = PBXGroup;
 			children = (
+				D90F07792BCEB422007BB9B8 /* Models */,
+				D90F07692BCEB38C007BB9B8 /* UI */,
+				D90F07662BCEB383007BB9B8 /* Common */,
 				032216CC2BCEAF1F00B3DA43 /* CareerApp.swift */,
 				032216CE2BCEAF1F00B3DA43 /* ContentView.swift */,
 				032216D02BCEAF2300B3DA43 /* Assets.xcassets */,
@@ -65,6 +90,70 @@
 				032216D32BCEAF2300B3DA43 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D90F07662BCEB383007BB9B8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D90F07802BCEB513007BB9B8 /* SmallCardView */,
+				D90F07672BCEB383007BB9B8 /* Toolbar.swift */,
+				D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */,
+				D90F077E2BCEB496007BB9B8 /* String.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D90F07692BCEB38C007BB9B8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D90F076A2BCEB38C007BB9B8 /* Home */,
+				D90F076D2BCEB38C007BB9B8 /* Challenges */,
+				D90F07702BCEB38C007BB9B8 /* FavoriteAppMission */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D90F076A2BCEB38C007BB9B8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D90F076B2BCEB38C007BB9B8 /* HomeViewModel.swift */,
+				D90F076C2BCEB38C007BB9B8 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D90F076D2BCEB38C007BB9B8 /* Challenges */ = {
+			isa = PBXGroup;
+			children = (
+				D90F076E2BCEB38C007BB9B8 /* AllAppMissionViewModel.swift */,
+				D90F076F2BCEB38C007BB9B8 /* AllAppMissionView.swift */,
+			);
+			path = Challenges;
+			sourceTree = "<group>";
+		};
+		D90F07702BCEB38C007BB9B8 /* FavoriteAppMission */ = {
+			isa = PBXGroup;
+			children = (
+				D90F07712BCEB38C007BB9B8 /* FavoriteAppMissionViewModel.swift */,
+				D90F07722BCEB38C007BB9B8 /* FavoriteAppMissionView.swift */,
+			);
+			path = FavoriteAppMission;
+			sourceTree = "<group>";
+		};
+		D90F07792BCEB422007BB9B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D90F077A2BCEB42C007BB9B8 /* AppMission.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D90F07802BCEB513007BB9B8 /* SmallCardView */ = {
+			isa = PBXGroup;
+			children = (
+				D90F07812BCEB520007BB9B8 /* SmallCardView.swift */,
+			);
+			path = SmallCardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +226,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90F077B2BCEB42C007BB9B8 /* AppMission.swift in Sources */,
+				D90F07752BCEB38C007BB9B8 /* AllAppMissionViewModel.swift in Sources */,
+				D90F07682BCEB383007BB9B8 /* Toolbar.swift in Sources */,
 				032216CF2BCEAF1F00B3DA43 /* ContentView.swift in Sources */,
+				D90F07762BCEB38C007BB9B8 /* AllAppMissionView.swift in Sources */,
 				032216CD2BCEAF1F00B3DA43 /* CareerApp.swift in Sources */,
+				D90F077F2BCEB496007BB9B8 /* String.swift in Sources */,
+				D90F07822BCEB520007BB9B8 /* SmallCardView.swift in Sources */,
+				D90F07742BCEB38C007BB9B8 /* HomeView.swift in Sources */,
+				D90F07732BCEB38C007BB9B8 /* HomeViewModel.swift in Sources */,
+				D90F07782BCEB38C007BB9B8 /* FavoriteAppMissionView.swift in Sources */,
+				D90F07772BCEB38C007BB9B8 /* FavoriteAppMissionViewModel.swift in Sources */,
+				D90F077D2BCEB47F007BB9B8 /* AppEnvironment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,9 +364,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Career/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -274,6 +375,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,6 +383,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = salah.Career;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,9 +398,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Career/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -302,6 +409,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +417,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = salah.Career;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
