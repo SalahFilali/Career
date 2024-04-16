@@ -6,6 +6,6 @@ public enum AppEnvironment: String {
 
 extension AppEnvironment {
     static var dataURL: URL {
-        return "https://raw.githubusercontent.com/medomar/ProBusinessData/main/Demo/demo-Data.json".encodedURL()
+        return "https://raw.githubusercontent.com/medomar/CareerData/main/home-data.json".encodedURL()
     }
 }

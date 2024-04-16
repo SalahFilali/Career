@@ -10,39 +10,44 @@ struct AllAppMissionView: View {
 
     var body: some View {
         NavigationStack {
-            List {
-                if viewModel.collection.isEmpty {
-                    ContentUnavailableView {
-                        VStack(alignment: .center) {
-                            Image(systemName: "exclamationmark.icloud.fill") // Updated system image
-                                .font(.largeTitle)
-                                .padding()
-                            Text("Challenges Currently Unavailable")
-                                .font(.title)
-                                .fontWeight(.semibold)
+            ZStack {
+                List {
+                    if viewModel.collection.isEmpty {
+                        ContentUnavailableView {
+                            VStack(alignment: .center) {
+                                Image(systemName: "exclamationmark.icloud.fill") // Updated system image
+                                    .font(.largeTitle)
+                                    .padding()
+                                Text("Challenges Currently Unavailable")
+                                    .font(.title)
+                                    .fontWeight(.semibold)
+                            }
+                        } description: {
+                            VStack(alignment: .center) {
+                                Text("Nothing to See Here... Yet!")
+                                    .font(.largeTitle)
+                                    .padding()
+                                Text("Looks like we're out of challenges at the moment. Ensure your internet connection is active or check back later. We're probably adding more exciting challenges!")
+                                    .font(.headline)
+                                    .multilineTextAlignment(.center)
+                                    .padding()
+                            }
                         }
-                    } description: {
-                        VStack(alignment: .center) {
-                            Text("Nothing to See Here... Yet!")
-                                .font(.largeTitle)
-                                .padding()
-                            Text("Looks like we're out of challenges at the moment. Ensure your internet connection is active or check back later. We're probably adding more exciting challenges!")
-                                .font(.headline)
-                                .multilineTextAlignment(.center)
-                                .padding()
-                        }
-                    }
-                } else {
-                    ForEach(viewModel.collection) { item in
-                        NavigationLink {
-                            Text("Details")
-                        } label: {
-                            SmallCardView(smallCardObject: item)
+                    } else {
+                        ForEach(viewModel.collection) { item in
+                            NavigationLink {
+                                Text("Details")
+                            } label: {
+                                SmallCardView(smallCardObject: item)
+                            }
                         }
                     }
                 }
+                if viewModel.isLoading {
+                    LoadingView()
+                }
             }
-            .navigationTitle(viewModel.title)
+            .navigationTitle(viewModel.viewTitle)
 #if os(iOS)
             .navigationBarTitleDisplayMode(.large)
 #endif
@@ -53,6 +58,9 @@ struct AllAppMissionView: View {
                 ToolbarItemGroup(placement: Toolbar.trailingToolbarItemPlacement ) {
                     trailingBarItems
                 }
+            }
+            .onAppear {
+                viewModel.fetchData()
             }
         }
     }

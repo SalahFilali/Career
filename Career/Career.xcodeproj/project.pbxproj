@@ -22,6 +22,7 @@
 		D90F077D2BCEB47F007BB9B8 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */; };
 		D90F077F2BCEB496007BB9B8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F077E2BCEB496007BB9B8 /* String.swift */; };
 		D90F07822BCEB520007BB9B8 /* SmallCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07812BCEB520007BB9B8 /* SmallCardView.swift */; };
+		D90F07842BCEBD83007BB9B8 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90F07832BCEBD83007BB9B8 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		D90F077E2BCEB496007BB9B8 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		D90F07812BCEB520007BB9B8 /* SmallCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardView.swift; sourceTree = "<group>"; };
+		D90F07832BCEBD83007BB9B8 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				D90F07672BCEB383007BB9B8 /* Toolbar.swift */,
 				D90F077C2BCEB47F007BB9B8 /* AppEnvironment.swift */,
 				D90F077E2BCEB496007BB9B8 /* String.swift */,
+				D90F07832BCEBD83007BB9B8 /* LoadingView.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				D90F07682BCEB383007BB9B8 /* Toolbar.swift in Sources */,
 				032216CF2BCEAF1F00B3DA43 /* ContentView.swift in Sources */,
 				D90F07762BCEB38C007BB9B8 /* AllAppMissionView.swift in Sources */,
+				D90F07842BCEBD83007BB9B8 /* LoadingView.swift in Sources */,
 				032216CD2BCEAF1F00B3DA43 /* CareerApp.swift in Sources */,
 				D90F077F2BCEB496007BB9B8 /* String.swift in Sources */,
 				D90F07822BCEB520007BB9B8 /* SmallCardView.swift in Sources */,
